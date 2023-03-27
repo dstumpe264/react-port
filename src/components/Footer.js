@@ -2,12 +2,12 @@ import React from "react";
 
 function Footer() {
     return (
-        <div>
+        <footer>
             <h1>Footer!</h1>
-            <h4>Github</h4>
-            <h4>LinkedIn</h4>
+            <a href="https://github.com/dstumpe264">GitHub</a>
+            <a href="https://www.linkedin.com/in/davidstumpe/">LinkedIn</a>
             
-        </div>
+        </footer>
     )
 }
 

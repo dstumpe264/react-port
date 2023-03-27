@@ -2,13 +2,21 @@ import React from "react";
 
 function Navigation() {
     return (
-        <div>
-            <h1>Navigation!</h1>
-            <h3>About Me</h3>
-            <h3>Portfolio</h3>
-            <h3>Contact</h3>
-            <h3>Resume</h3>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#aboutme">About Me</a>
+                    <a class="nav-item nav-link" href="#portfolio">Porfolio</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                    <a class="nav-item nav-link" href="#resume">Resume</a>
+                </div>
+            </div>
+        </nav>
     )
 }
 
