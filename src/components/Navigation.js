@@ -13,7 +13,7 @@ function Navigation() {
                     <a class="nav-item nav-link" href="#aboutme">About Me</a>
                     <a class="nav-item nav-link" href="#portfolio">Porfolio</a>
                     <a class="nav-item nav-link" href="#contact">Contact</a>
-                    <a class="nav-item nav-link" href="#resume">Resume</a>
+                    <a class="nav-item nav-link" href="https://docs.google.com/document/d/1MBTkln1Y1C8nSK6VXGMlVaPztzJ7Euso6n_sMpycifU/edit?usp=sharing">Resume</a>
                 </div>
             </div>
         </nav>
