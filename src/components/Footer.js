@@ -8,9 +8,9 @@ function Footer() {
     return (
         <footer>
             <div class="container">
-                <div class="list-inline">
+                <div class="align-content-left list-inline">
 
-                    <h1>Footer!</h1>
+                    
                     <button onClick={() => {
                         window.open("https://github.com/dstumpe264");
                     }}>
